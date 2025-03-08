@@ -1,7 +1,12 @@
 import React from "react";
+import Orderlist from "@/components/pages/orders/OrdersList";
 
 function order() {
-  return <h1>order</h1>;
+  return (
+    <>
+      <Orderlist />
+    </>
+  );
 }
 
 export default order;
